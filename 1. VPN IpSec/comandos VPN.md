@@ -41,11 +41,13 @@ set security ike proposal <nombre_propuesta> encryption-algorithm <algoritmo_cif
 set security ike proposal <nombre_propuesta> lifetime-seconds <tiempo_vida_segundos>
 ```
 Explicación:
+***
 <nombre_propuesta>: Un nombre descriptivo para la propuesta IKE.
 <método_autenticación>: Método de autenticación, como pre-shared-keys (psk) o certificados digitales.
 <grupo_DH>: Grupo de Diffie-Hellman para el intercambio de claves.
 <algoritmo_cifrado>: Algoritmo de cifrado, como aes256.
 <tiempo_vida_segundos>: Tiempo de vida de la negociación IKE en segundos.
+***
 
 ** Ejemplo **
 set security ike proposal proposal1 authentication-method pre-shared-keys
