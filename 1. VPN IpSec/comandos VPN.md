@@ -30,6 +30,7 @@ configure
 set interfaces st0 unit 0 family inet
 ```
 Explicación: Esto crea una interfaz de túnel (st0) para la VPN IPsec.
+
 ### Paso 2: Configuración de la fase 1 (IKE)
 #### Configura la fase 1 del túnel IPsec
 
